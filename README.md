@@ -1,26 +1,27 @@
 # FormBERT
 
 
-Code implementation of FormBERT, accepted by Findings of EMNLP 2021
+Code implementation of Findings of EMNLP 2021 Paper: **Leveraging Word-Formation Knowledge for Chinese Word Sense Disambiguation**
 
 
 ## Requirements
 
 We recommend using Anaconda for the setup of experiments environment.
 
-The following instructions woule be helpful:
+The following instructions would be helpful:
 
-> git clone https://github.com/TobiasLee/FormBERT
-> cd FormBERT
-> conda create -n formbert python=3.7
-> conda activate formbert
-> conda install pytorch torchvision cudatoolkit=11.0 -c pytorch 
-> pip install -r requirements.txt 
-
+```bash
+git clone https://github.com/TobiasLee/FormBERT
+cd FormBERT
+conda create -n formbert python=3.7
+conda activate formbert
+conda install pytorch torchvision cudatoolkit=11.0 -c pytorch 
+pip install -r requirements.txt 
+```
 
 ## Data
 
-Our FiCLS dataset will be released soon .
+Our FiCLS dataset will be released soon.
 
 ## Run Experiment
 
@@ -29,7 +30,7 @@ Our FiCLS dataset will be released soon .
 
 ## Contact
 
-If you have any further questions about the data and code, Raise a Issue or send a email to the authors:
+If you have any further questions about the data and code, raise a issue at the repo or send emails to the authors:
 
 Hua Zheng: zhenghua@pku.edu.cn
 
